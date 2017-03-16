@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		87C59E0D1E79873100223A21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C59E0C1E79873100223A21 /* AppDelegate.swift */; };
-		87C59E0F1E79873100223A21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C59E0E1E79873100223A21 /* ViewController.swift */; };
+		87C59E0F1E79873100223A21 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C59E0E1E79873100223A21 /* ImageViewController.swift */; };
 		87C59E121E79873100223A21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C59E101E79873100223A21 /* Main.storyboard */; };
 		87C59E141E79873100223A21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87C59E131E79873100223A21 /* Assets.xcassets */; };
 		87C59E171E79873100223A21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C59E151E79873100223A21 /* LaunchScreen.storyboard */; };
+		87C59E1F1E79A8ED00223A21 /* CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C59E1E1E79A8ED00223A21 /* CassiniViewController.swift */; };
+		87C59E211E79AA3000223A21 /* DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C59E201E79AA3000223A21 /* DemoURL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		87C59E091E79873100223A21 /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C59E0C1E79873100223A21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		87C59E0E1E79873100223A21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		87C59E0E1E79873100223A21 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		87C59E111E79873100223A21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87C59E131E79873100223A21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87C59E161E79873100223A21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87C59E181E79873100223A21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87C59E1E1E79A8ED00223A21 /* CassiniViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CassiniViewController.swift; sourceTree = "<group>"; };
+		87C59E201E79AA3000223A21 /* DemoURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoURL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				87C59E0C1E79873100223A21 /* AppDelegate.swift */,
-				87C59E0E1E79873100223A21 /* ViewController.swift */,
+				87C59E201E79AA3000223A21 /* DemoURL.swift */,
+				87C59E0E1E79873100223A21 /* ImageViewController.swift */,
+				87C59E1E1E79A8ED00223A21 /* CassiniViewController.swift */,
 				87C59E101E79873100223A21 /* Main.storyboard */,
 				87C59E131E79873100223A21 /* Assets.xcassets */,
 				87C59E151E79873100223A21 /* LaunchScreen.storyboard */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87C59E0F1E79873100223A21 /* ViewController.swift in Sources */,
+				87C59E211E79AA3000223A21 /* DemoURL.swift in Sources */,
+				87C59E0F1E79873100223A21 /* ImageViewController.swift in Sources */,
+				87C59E1F1E79A8ED00223A21 /* CassiniViewController.swift in Sources */,
 				87C59E0D1E79873100223A21 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +310,7 @@
 				87C59E1D1E79873100223A21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
